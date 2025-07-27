@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins',sans-serif;
+ 
+   
+}
+body{
+   display: flex;
+   justify-content: center;
+   background: linear-gradient(to 
+   right,black,white);
+    
+}
+.quiz-card{
+  margin-top: 4rem;
+    border: rgb(5, 5, 56) 1px solid;
+     width: 400px;
+     text-align: center;
+     background : rgb(254, 254, 254);
+     padding: 4rem;
+
+     
+}
+.questions{
+  font-size: large;
+  margin-bottom: 1rem;
+}
+.btn{
+  padding:  0.5rem 8rem 0.5rem 8rem;
+  margin-top: 10px;
+  background-color: white;
+  border: 0.5px solid grey;
+  transition: 0.5s ease;
+  width: 400px;
+  
+}
+.btn:hover{
+  background-color: black;
+  color: white;
+  transition: 0.3s ease;
+}
+.nextBtn{
+  border: none; 
+  width: 100px;
+  background-color: rgb(44, 172, 78);
+  margin-top:1.5rem;
+  padding: 5px;
+  color: white;
+  transition: 0.5s ease;
+   
+}
+.nextBtn:hover{
+  background-color: darkblue;
+  color: white;
+}
